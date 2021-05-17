@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|PT+Serif:400,400i,700,700i');
+
+div {
+  display: block;
+}
+body {
+  padding: 20px;
+  color: #a5a5a5;
+  background-color: #ffffff;
+  font-family: "Audible Sans",Arial,sans-serif;
+  font-size: 15px;
+  text-align: "center";
+  line-height: 20px;
+  margin: 2.5%;
+  line-height: 1.4;
+}
+
+h2 {
+   color: #141414;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 26px;
+   margin-bottom: -5px;
+}
+
+
+.publisher-summary {
+  color: rgba(20,20,20,.65);
+  font-size: .9em;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+@media (max-width: 650px) {
+  .extra_content {
+    display: none;
+  }
+  #read_more {
+    cursor: pointer;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    color: #333;
+    border: none;
+    white-space: nowrap;
+    font: 400 14px Arial;
+    height: 40px;
+    text-align: left;
+    position: flex;
+    background-color: white;
+    margin-left:-5px;
+    margin-top: -1px;
+  }
+  body {
+    color: #a5a5a5;
+    background-color: #ffffff;
+    font-family: "Audible Sans",Arial,sans-serif;
+    margin-top: 0%;
+    margin: 1%;
+    white-space: pre-line;
+    background-color: #FFF;
+    line-height: 1.3;
+
+  }
+  h2 {
+    color: #141414;
+    font-weight: 700;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    font-family:  Arial, sans-serif;
+    margin-bottom: -9px;
+    padding-bottom: 0%;
+   }
+   .summary-detail {
+    margin-bottom: -6px;
+    margin-top: -6px;
+   }
+
+   .publisher-summary  {
+    color: #6c6b6b;
+    display: flex;
+    font-family:  sans-serif, "Audible Sans" Arial, sans-serif;
+    font-size: 14px;
+    flex-direction: column;
+    padding-top: 0%;
+    margin-top: -5px;
+    }
+
+    .normal
+    {
+      -webkit-mask-image: -webkit-linear-gradient(
+        270deg
+        ,#000 50%,transparent 100%);
+    }
+
+
+    .read_more:hover {
+      color: #020202;
+      text-decoration: underline;
+    }
+
+    .extra_content {
+      display: visible;
+    }
+    #extra_content {
+      clear: left;
+      white-space: pre-line;
+      margin-top: -8px;
+    }
+
+
+    .show {
+       display: block;
+       margin-top: 0px;
+
+       /* display: block!important; */
+    }
+
+}
+.read_more  {
+  display: none;
+  border: none;
+  background-color: white;
+}
+
+
+#container {
+  position: relative;
+  /* display: flex; */
+  /* width: 80%;
+  height: 50%; */
+}
+#services {
+  position: relative;
+
+}
+title-service {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  margin-left: 2%;
+  margin-bottom: -6px;
+
+}
+
+#body {
+  position: absolute;
+  top: 39px;
+  left: 50px;
+  margin-left: 55%;
+  /* right: 45px; */
+  /* position: relative;
+  left: 90px;
+  top: 20%;
+  Margin-left: 40%; */
+  margin-bottom: -6px;
+  background: black;
+
+}
+#summary {
+  position: relative;
+  left: 50px;
+  top: 60%;
+  /* transform: translate(0, -50%); */
+  margin-right: 15%;
+  margin-left: 5%;
+  line-height: 1.3;
+  margin-bottom: 0px;
+  margin-top: -30px;
+  left:-15px;
+  right:-15px;
+  top:45px;
+  bottom:-15px;
+}
+.summary-heading {
+  color: #141414;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: -5px;
+}
+
+#reviews {
+  position: relative;
+  /* display:  inline-block; */
+  /* position: absolute; */
+  /* left: 50px; */
+  /* margin-left: -20px; */
+  /* top: 50%;
+  transform: translate(0, -50%);
+  margin-left: 5%;
+  margin-top: -10px; */
+  left:-45px;
+  right:-15px;
+  top:100px;
+  bottom:-15px;
+  font-size: 18px;
+}
+
+
+
+
+/* num2 will be on top of num1
+#title-service {
+  z-index: 1;
+}
+#app {
+  z-index: 1;
+}
+#summary {
+  z-index: 2;
+}
+#reviews {
+  z-index: 3;
+} */
+
+
+#app {
+  border-radius: 5px;
+  width: 315px;
+  float: left;
+  font: 18px Helvetica;
+  background: black;
+}
+.priceBody {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* // ===== MEMBERSHIP PRICE TITLE ===== */
+#membership {
+  /* border: 1px solid white;
+  border-radius: 5px; */
+}
+#premiumPlus {
+  margin: 20px 0 14px 6%;
+  color: white;
+  font-weight: 100;
+  letter-spacing: -1px;
+  font-size: 20px;
+
+}
+#premium {
+  font-weight: 500;
+  font-size: 22px;
+  margin-right: 0.5%;
+}
+#plus {
+  font-size: 22px;
+  color: orange;
+}
+
+/* // ===== MEMBERSHIP BENEFITS LIST ===== */
+/* #memberBenefits { */
+  /* font-size: 14px;
+  margin: 0 10% 25px 9%;
+  color: white;
+  font-weight: 200;
+  letter-spacing: -0.5px;
+  font: Helvetica;
+  line-height: 2.0; */
+/* } */
+#memberBenefits {
+  font-size: 14px;
+  margin: 0 10% 25px 9%;
+  color: rgb(172, 172, 172);
+  font-weight: 200;
+  letter-spacing: -0.5px;
+  font: Helvetica;
+  line-height: 2.0;
+  ul {
+    color: rgb(194, 188, 188);
+    font-weight: 400;
+    padding-left: 0;
+    letter-spacing: -0.2px;
+
+  li {
+      margin-bottom: 6%;
+      padding-left: 30px;
+      list-style: none;
+      background-image: url('checkmark.png');
+      background-repeat: no-repeat;
+      background-position: 0% -90%;
+      background-size: 25px;
+    }
+    li:first-child {
+      margin-top: 4%;
+      background-position: 0% 50%;
+    }
+    li:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+/* // ===== BUTTONS - ALL ===== */
+.priceButton {
+  text-align: center;
+  position: relative;
+  border: none;
+  border-radius: 3px;
+  padding: 4% 0 3.5% 0;
+}
+
+/* // ===== BUTTON - MEMBERSHIP ===== */
+#memberEnroll {
+  width: 85%;
+  margin-left: 7.5%;
+  background-color: orange;
+  font-size: 14px;
+}
+#memberEnroll:hover {
+  background-color:rgb(249, 196, 99);
+}
+#memberEnroll:focus {
+  border: none;
+  outline: none;
+}
+
+/* // ===== BUTTON - PRICE BUY ===== */
+#price {
+  margin-top: 8px;
+}
+#bookBuy {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.15);
+  width: 100%;
+}
+#bookBuy:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+}
+#bookBuy:focus {
+  border: none;
+  outline: none;
+}
+
+
+$primary-color: #ffff;
+$secondary-color: rgba(255, 255, 255, 0.582);
+$button-color: rgba(255, 255, 255, 0.205);
+$button-hover: rgba(255, 255, 255, 0.411);
+
+$font-family: 'Source Sans Pro', sans-serif;
+
+$break-point: '960px';
+
+body {
+  background-color: white;
+  color: white;
+  font-family: $font-family;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  color: #ffff;
+  font-size: 30px;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 0.582);
+  font-size: 28px;
+  line-height: 28px;
+  margin-top: -10px;
+}
+
+///////////////////////////////////////
+////////   BACKGROUNG IMAGE  //////////
+///////////////////////////////////////
+
+.background-container {
+  position: relative;
+  height: 420px;
+  padding-top: 40px;
+  overflow: hidden;
+}
+
+.background-image {
+  background-color: rgb(58, 58, 58);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transform: scale(1.6);
+  left:-15px;
+  right:-15px;
+  top:-15px;
+  bottom:-15px;
+  filter: blur(25px) brightness(0.4);
+  -webkit-filter: blur(50px) brightness(0.4);
+  -moz-filter: blur(50px) brightness(0.4);
+  -ms-filter: blur(50px) brightness(0.4);
+  -o-filter: blur(50px) brightness(0.4);
+  position: absolute;
+  z-index: 0;
+}
+
+///////////////////////////////////////
+////////       ELEMENTS      //////////
+///////////////////////////////////////
+
+.price-service {
+  border: white solid 1px;
+  border-radius: 5px;
+  max-width: 300px;
+}
+
+.content-container {
+  width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 2;
+}
+
+.image {
+  width: 230px;
+  height: 230px;
+}
+
+.audioSample button {
+  width: 230px;
+  background-color: $button-color;
+  color: #ffff;
+  border: none;
+  height: 40px;
+  span {
+    vertical-align: middle;
+    font-size: 14px;
+  }
+  img {
+   vertical-align: middle;
+  }
+  &:hover {
+    background-color: $button-hover;
+    cursor: pointer;
+  }
+}
+
+.title {
+  padding-top: 0px;
+  margin-top: -20px;
+  padding-left: 20px;
+  max-width: 340px;
+}
+
+.info {
+  margin-top: 25px;
+  max-width: 320px;
+  padding-left: 20px;
+  ul {
+    padding-left: 0;
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 15px;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    color: #ffff;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+
+///////////////////////////////////////
+////////        MOBILE       //////////
+///////////////////////////////////////
+
+
+@media (max-width: $break-point) {
+
+  body {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .background-container {
+    height: 900px;
+  }
+
+  .content-container {
+    display: inline;
+    top: 20px;
+    width: 90%;
+  }
+
+  .image {
+    margin: auto;
+    width: 240px;
+    height: 240px;
+  }
+
+  .audioSample button {
+    width: 240px;
+    height: 40px;
+  }
+
+  .info {
+    padding-left: 0px;
+    width: 240px;
+    margin: auto;
+    ul {
+      font-size: 14px;
+    }
+  }
+
+  .title {
+    padding-left: 0px;
+    width: 240px;
+    margin: auto;
+  }
+
+  .price-service {
+    margin: auto;
+    margin-top: 30px;
+    height: 315px;
+  }
+
+}
