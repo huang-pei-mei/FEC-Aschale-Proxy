@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css?family=Francois+One|PT+Serif:400,400i,700,700i');
+
+#container {
+  position: relative;
+  padding: 0%;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+
+}
+
+#services {
+  position: relative;
+  padding: 0px;
+  margin: 0;
+  width: 100%;
+
+}
+
+#price-service {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  margin-left: 55.2%;
+  margin-bottom: 0px;
+  background: black;
+
+}
+
+#summary {
+  position: relative;
+  left: 50px;
+  top: 60%;
+  margin-right: 14%;
+  margin-left: 9%;
+  line-height: 1.3;
+  margin-bottom: 0px;
+  margin-top: -30px;
+  left:-10px;
+  right:-10px;
+  top:45px;
+  bottom:-15px;
+  font: 16px "Audible Sans",Arial,sans-serif;
+}
+.summary-heading {
+  color: #141414;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: -5px;
+}
+
+#reviews {
+  position: relative;
+  margin-top: -10px;
+  left:-45px;
+  right:-15px;
+  top:100px;
+  bottom:-15px;
+  font-size: 16px;
+}
+
+.reviewTitle {
+  color: black
+}
+
+@media (max-width:960px ) {
+  #container {
+    position: relative;
+    left: -30px;
+    right: -20px;
+    padding: 0%;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+
+  }
+
+  #services {
+    position: relative;
+    padding: 2px;
+    margin-left: -2px;
+    width: 100%
+
+  }
+
+  .publisher-summary {
+    text-align: left;
+    margin-left:5px;
+    margin-top: -85px;
+    margin-right:-50%;
+    font: 15px Arial,sans-serif;
+  }
+
+  .summary-heading {
+    text-align: left;
+    font-size: 16px;
+    margin-left:5px;
+    margin-top: 8px;
+    margin-bottom: -8px;
+
+
+  }
+  #reviews {
+    left: 5px;
+    right: 5px;
+    margin-left: 20px;
+    margin-right: -25%;
+    margin-top: -45px;
+    text-align: left;
+    width: 100%;
+
+  }
+  .reviewTitle {
+    color: black
+  }
+
+  #summary {
+    margin-top: -85px;
+    width: 70%;
+  }
+}
+#app {
+  background: rgb(62, 62, 62);
+}
+@media (max-width:960px ) {
+body {
+  background-color: white;
+  display:flex;
+  left:0%;
+  padding-left: 0%;
+  max-width:80%;
+}
+#price-service {
+  width: 95%;
+  margin-top: 513px;
+  margin-left: -10%;
+  margin-right: 15px;
+  height: 320px;
+  top:10px;
+  bottom:-35px;
+  text-align: left;
+}
+#app {
+  border-radius: 4px;
+  width: 110%;
+  margin-right: 15px;
+  font: 16px Arial,sans-serif;
+  background: rgb(62, 62, 62);
+}
+.priceBody {
+  margin-left: 10%;
+  margin-right: 15%;
+}
+
+}
+
+
+
