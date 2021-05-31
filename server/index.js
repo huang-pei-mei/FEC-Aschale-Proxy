@@ -23,7 +23,7 @@ app.get('/api/book/:bookId', (req, res) => {
 
 app.get('/api/price/:bookId', (req, res) => {
   res.set({'Access-Control-Allow-Origin' : 'https://s3.us-east-2.amazonaws.com/'});
-  axios.get(`http://localhost:3000${req.url}`)
+  axios.get(`http:// ec2-34-221-235-141.us-west-2.compute.amazonaws.com:3000${req.url}`)
   .then((response) => {
     res.status(202).json(response.data);
   })
@@ -34,7 +34,7 @@ app.get('/api/price/:bookId', (req, res) => {
 
 app.get('/api/price/:bookTitle', (req, res) => {
   res.set({'Access-Control-Allow-Origin' : 'https://s3.us-east-2.amazonaws.com/'});
-  axios.get(`http://localhost:3000${req.url}`)
+  axios.get(`http:// ec2-34-221-235-141.us-west-2.compute.amazonaws.com:3000${req.url}`)
   .then((response) => {
     res.status(202).json(response.data);
   })
@@ -46,7 +46,7 @@ app.get('/api/price/:bookTitle', (req, res) => {
 
 app.get('/api/summary/:bookId', async (req, res) => {
   res.set({'Access-Control-Allow-Origin' : 'https://s3.us-east-2.amazonaws.com/'});
-  axios.get(`http://localhost:1220${req.url}`)
+  axios.get(`http://ec2-18-188-135-5.us-east-2.compute.amazonaws.com:1220${req.url}`)
   .then((response) => {
     res.status(202).json(response.data);
   })
@@ -58,7 +58,8 @@ app.get('/api/summary/:bookId', async (req, res) => {
 
 app.get('/api/aggReview/:bookId', async (req, res) => {
   res.set({'Access-Control-Allow-Origin' : 'https://s3.us-east-2.amazonaws.com/'});
-  axios.get(`http://localhost:2880${req.url}`)
+  axios.get(`http://ec2-18-220-21-137.us-east-2.compute.amazonaws.com:2880${req.url}`)
+  // axios.get(`http://localhost:2880${req.url}`)
   .then((response) => {
     res.status(202).json(response.data);
   })
@@ -69,7 +70,7 @@ app.get('/api/aggReview/:bookId', async (req, res) => {
 
 app.get('/reviews/:bookId', (req, res) => {
   res.set({'Access-Control-Allow-Origin' : 'https://s3.us-east-2.amazonaws.com/'});
-  axios.get(`http://localhost:4000${req.url}`)
+  axios.get(`http://ec2-54-67-73-166.us-west-1.compute.amazonaws.com:4001${req.url}`)
   .then((response) => {
     res.status(202).json(response.data);
   })
