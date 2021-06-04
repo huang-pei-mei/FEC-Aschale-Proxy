@@ -97,7 +97,7 @@ html {
   margin: auto;
   margin-bottom: -55px;
   margin-top: -20px;
-  padding-left: 10px;
+  padding-left: 8px;
   padding-right: 10px;
 }
 
@@ -132,7 +132,7 @@ html {
   .copyright {
     margin-right:18px;
   }
-  .summary-heading {
+  .summary-heading h2 {
     text-align: left;
     font-size: 16px;
     margin-left:2px;
