@@ -20,6 +20,11 @@ module.exports = function (grunt) {
         dest: "Title/"
       },
       build: {
+        cwd: "../also-enjoyed-service/public",
+        src: "**",
+        dest: "AlsoEnjoyed/"
+      },
+      build: {
         cwd: "../reviews-service/dist",
         src: "**",
         dest: "Reviews/"
@@ -51,11 +56,17 @@ module.exports = function (grunt) {
           src: "../title-service/public/title-service.js",
           dest: "Title/title-service.js"
         }, {
+          src: "../also-enjoyed-service/client/assets/styles.css",
+          dest: "Proxy/alsoEnjoyedStyle.css"
+        },{
           src: "../reviews-service/dist/reviews.js",
           dest: "Reviews/reviews.js"
         }, {
           src: "../price-service/public/priceBundle.js",
           dest: "Price/priceBundle.js"
+        },{
+          src: "../also-enjoyed-service/public/alsoEnjoyedBundle.js",
+          dest: "AlsoEnjoyed/alsoEnjoyedBundle.js"
         },{
           src: "../FEC-Agg.Review/public/aggReview.js",
           dest: "AggReviews/aggReview.js"
