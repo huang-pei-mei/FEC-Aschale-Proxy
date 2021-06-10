@@ -29,10 +29,8 @@ Full Page Demo
 
 ![Deploy](https://github.com/huang-pei-mei/FEC-Aschale-Proxy/blob/master/Pictures%20and%20gifs/Full%20Page.jpg)
 
-
-### Title Bar 
+### Title Bar Gif and Images
 ![Deploy](https://github.com/huang-pei-mei/FEC-Aschale-Proxy/blob/master/Pictures%20and%20gifs/Title%20Bar%20Desktop%20View.jpg)
-
 
 ### Summary and Aggregate Review Service
 ![Deploy](https://github.com/huang-pei-mei/FEC-Aschale-Proxy/blob/master/Pictures%20and%20gifs/Summary%20and%20Aggregate%20Review%20desktop%20View.jpg)
