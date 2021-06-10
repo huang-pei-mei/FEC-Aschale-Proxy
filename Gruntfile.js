@@ -47,18 +47,9 @@ module.exports = function (grunt) {
           src: "public/style.css",
           dest: "Proxy/proxyStyle.css"
         }, {
-          src: "../title-service/client/styles.css",
-          dest: "Proxy/titleStyle.css"
-        },{
-          src: "../price-service/client/assets/styles.css",
-          dest: "Proxy/priceStyle.css"
-        },{
           src: "../title-service/public/title-service.js",
           dest: "Title/title-service.js"
         }, {
-          src: "../also-enjoyed-service/client/assets/styles.css",
-          dest: "Proxy/alsoEnjoyedStyle.css"
-        },{
           src: "../reviews-service/dist/reviews.js",
           dest: "Reviews/reviews.js"
         }, {
