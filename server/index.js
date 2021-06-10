@@ -61,7 +61,6 @@ app.get('/api/summary/:bookId', async (req, res) => {
 app.get('/api/aggReview/:bookId', async (req, res) => {
   res.set({'Access-Control-Allow-Origin' : 'https://s3.us-east-2.amazonaws.com/'});
   axios.get(`http://ec2-18-220-21-137.us-east-2.compute.amazonaws.com:2880${req.url}`)
-  // axios.get(`http://localhost:2880${req.url}`)
   .then((response) => {
     res.status(202).json(response.data);
   })
