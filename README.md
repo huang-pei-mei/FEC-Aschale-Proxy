@@ -12,6 +12,7 @@
   - [Related Services](#related-services)
   - [My contributions](#my-contributions)
   - [Requirements](#requirements)
+  - [Requirements](#requirements-1)
     - [Usage](#usage)
   - [Sample Results from the Project](#sample-results-from-the-project)
   - [Technologies Used](#technologies-used)
@@ -61,6 +62,9 @@ Utilized agile workflow practices on a 4 -person remote team.
 An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm)
 Node 6.13.0.
 
+## Requirements
+An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm)
+Node 6.13.0.
 
 ### Usage
 Clone the repository from github into your local machine to make edits.
