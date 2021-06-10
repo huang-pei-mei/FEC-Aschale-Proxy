@@ -26,6 +26,7 @@ The proxy has book data that is always associated with a certain book id and is 
 
 ## Product Page Live Demos and Screenshots Below
 Full Page Demo
+
 ![Deploy](https://github.com/huang-pei-mei/FEC-Aschale-Proxy/blob/master/Pictures%20and%20gifs/Full%20Page.jpg)
 
 
