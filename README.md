@@ -26,36 +26,19 @@ The proxy has book data that is always associated with a certain book id and is 
 
 ## Product Page Live Demos and Screenshots Below
 Full Page Demo
+
 ![Deploy](https://github.com/huang-pei-mei/FEC-Aschale-Proxy/blob/master/Pictures%20and%20gifs/Full%20Page.jpg)
 
-
 ### Title Bar Gif and Images
-<<<<<<< HEAD
 ![Deploy](https://github.com/huang-pei-mei/FEC-Aschale-Proxy/blob/master/Pictures%20and%20gifs/Title%20Bar%20Desktop%20View.jpg)
-
-
 
 ### Summary and Aggregate Review Service
 ![Deploy](https://github.com/huang-pei-mei/FEC-Aschale-Proxy/blob/master/Pictures%20and%20gifs/Summary%20and%20Aggregate%20Review%20desktop%20View.jpg)
-
-=======
-![Deploy](https://github.com/huang-pei-mei/FEC-Aschale-Proxy/blob/master/Pictures%20and%20gifs/Title%20Bar.gif)
-![Deploy](https://github.com/huang-pei-mei/FEC-Aschale-Proxy/blob/master/Pictures%20and%20gifs/Title%20Bar%20-%20Desktop%20View%20.jpg)
-
-
-### Summary and Aggregate Review Service
-![Deploy](https://github.com/huang-pei-mei/FEC-Aschale-Proxy/blob/master/Pictures%20and%20gifs/Summary%20and%20Aggregate%20Review%20Service.gif)
-![Deploy](https://github.com/huang-pei-mei/FEC-Aschale-Proxy/blob/master/Pictures%20and%20gifs/Summary%20and%20Aggregate%20Review%20Desktop%20View.jpg)
->>>>>>> master
 
 
 ### Review Service
 ![Deploy](https://github.com/huang-pei-mei/FEC-Aschale-Proxy/blob/master/Pictures%20and%20gifs/Review%20Desktop%20View.jpg)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 
 ## Related Services
 
