@@ -9,17 +9,10 @@
   - [Related Services](#related-services)
   - [My contributions](#my-contributions)
   - [Requirements](#requirements)
-  - [Development](#development)
     - [Usage](#usage)
   - [Sample Results from the Project](#sample-results-from-the-project)
   - [Technologies Used](#technologies-used)
   - [Copyright and License](#copyright-and-license)
-- [Audible Item Page](#audible-item-page)
-  - [Related Projects](#related-projects)
-  - [Installation](#installation)
-  - [Installing Dependencies](#installing-dependencies)
-  - [Contributing](#contributing)
-  - [License](#license)
 
 
 # Overview: Audible Item Page
@@ -49,14 +42,6 @@ Utilized agile workflow practices on a 4 -person remote team.
 An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm)
 Node 6.13.0.
 
-## Development
-<!-- The database folder includes two helper functions which generates random data and populates the generated data into the database. The first helper function which generates random data and save the generated data into the database is located in database/populateData.js file. The mongo db setup file which specifies the database schema is located in database/index.js file
-
-The App componet which includes RenderDom is located in client/src/index.js file. Using the following url `http://localhost:1220/api/summary/${bookId}` the app component fetches publisher's summary and copyright information for a given book from the server to be rendered.
-
-The server with two endpoints are located in server/index.js. The first endpoint is `/api/summary/:bookId` This takes a random book id and returns an object with the following data {id: Number, summary: String, short_summary: String, copyright: String}.
-
-The second endpont`http://localhost:1220/api/summaries/:bookIds` will accept array of book ids and returns an array of objects with the following data for each of the book ids {id: Number, summary: String, short_summary: String, copyright: String} -->
 
 ### Usage
 Clone the repository from github into your local machine to make edits.
@@ -93,91 +78,4 @@ Runs the app in the development mode. Open http://localhost:3300 to view it in t
 
 ## Copyright and License
 The MIT License (MIT) http://www.opensource.org/licenses/mit-license.php
-
-
-
-
-
-# Audible Item Page
-
-
-
-
-
-## Related Projects
-  <!-- - https://github.com/huang-pei-mei/jm-proxy
-  - https://github.com/huang-pei-mei/CM-proxy
-  - https://github.com/huang-pei-mei/mkk-proxy -->
-
-
-## Installation
-
-Clone the repository from github onto your local machine to make edits. However page will not run locally with data because the service routes are directed to an AWS EC2 instance
-
-Code is available to view on github at https://github.com/huang-pei-mei/FEC-Aschale-Proxy.
-
-## Installing Dependencies
-Once you clone the repository, navigate to the main directory and then from within the  directory:
-
-npm install
-This will install the main server side dependencies.
-
-
-npm start
-Run the following commands from within the root directory to run the proxy in your local machione once you pulle down the repository(alternatively you can follow the steps below):
-
-```bash
-fork 'https://github.com/huang-pei-mei/FEC-Aschale-Proxy'
-git clone /path/to/clone.git
-cd FEC-Aschale-Proxy
-npm install
-
-```
-
-<!-- ## Usage
-
-```javascript
-
-'http://54.153.95.228/books/10/'  returns product page for 'The Fellowship of the Ring by  J. R. R. Tolkien'
-
-'http://54.153.95.228/books/2/'  returns product page for 'My Own Words by Ruth Bader Ginsburg, Mary Hartnett, Wendy W. Williams'
-
-``` -->
-
-## Contributing
-This page is not currently open for contributions
-
-## License
-N/A
-
-
-
-
-<!-- ## Table of Contents
-
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
-
-## Usage
-
-> Some usage instructions -->
-
-<!-- ## Requirements
-
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
-- Node 6.13.0
-- etc
-
-## Development
-
-### Installing Dependencies
-
-From within the root directory:
-
-```sh
-npm install -g webpack
-npm install
-``` -->
 
