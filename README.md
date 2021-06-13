@@ -1,5 +1,5 @@
 # Project Audible Item Page
-![Deploy](https://github.com/huang-pei-mei/FEC-Aschale-Proxy/blob/master/Pictures%20and%20gifs/Audible%20Demo.gif)
+![Deploy](https://github.com/huang-pei-mei/FEC-Aschale-Proxy/blob/master/Pictures%20and%20gifs/Final%20Audible%20Item%20Page.gif)
 
 ## Table of Contents
 - [Project Audible Item Page](#project-audible-item-page)

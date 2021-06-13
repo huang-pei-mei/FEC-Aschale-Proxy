@@ -9,7 +9,6 @@ app.use(express.static(path.join(__dirname, '../public')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-
 app.get('/api/book/:bookId', (req, res) => {
   res.set({'Access-Control-Allow-Origin' : 'https://s3.us-east-2.amazonaws.com/'});
   axios.get(`http://ec2-13-57-14-144.us-west-1.compute.amazonaws.com:2002/${req.url}`)
@@ -88,7 +87,6 @@ app.get('/reviews/:bookId', (req, res) => {
 });
 
 let port = process.env.port || 3300;
-
 if(!module.parent){
 app.listen(port, () => {
   console.log(`server running at: http://localhost:${port}`);
